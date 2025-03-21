@@ -21,6 +21,10 @@ class HolonetPlugin: Plugin<Project> {
             project.dependencies {
                 "compileOnly"("dk.holonet:core:0.0.1")
                 "compileOnly"("org.pf4j:pf4j:3.6.0")
+                "compileOnly"("io.insert-koin:koin-core:4.0.2")
+                "compileOnly"("io.insert-koin:koin-compose:4.0.2")
+                "compileOnly"("io.ktor:ktor-client-core:3.1.0")
+                "compileOnly"("io.ktor:ktor-client-cio:3.1.0")
                 "kapt"("org.pf4j:pf4j:3.6.0")
             }
 
