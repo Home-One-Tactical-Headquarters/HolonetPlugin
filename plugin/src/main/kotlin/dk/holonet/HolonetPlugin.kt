@@ -23,8 +23,12 @@ class HolonetPlugin: Plugin<Project> {
                 "compileOnly"("org.pf4j:pf4j:3.6.0")
                 "compileOnly"("io.insert-koin:koin-core:4.0.2")
                 "compileOnly"("io.insert-koin:koin-compose:4.0.2")
+                "compileOnly"("io.insert-koin:koin-compose-viewmodel:4.0.2")
                 "compileOnly"("io.ktor:ktor-client-core:3.1.0")
                 "compileOnly"("io.ktor:ktor-client-cio:3.1.0")
+                "compileOnly"("org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.8.3")
+                "compileOnly"("org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.8.3")
+                "compileOnly"("androidx.compose.material3:material3:1.3.1")
                 "kapt"("org.pf4j:pf4j:3.6.0")
             }
 
