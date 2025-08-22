@@ -20,7 +20,7 @@ class HolonetPlugin: Plugin<Project> {
             // Add dependencies
             project.dependencies {
                 "compileOnly"("dk.holonet:core:0.0.1")
-                "compileOnly"("org.pf4j:pf4j:3.6.0")
+                "compileOnly"("org.pf4j:pf4j:3.13.0")
                 "compileOnly"("io.insert-koin:koin-core:4.0.2")
                 "compileOnly"("io.insert-koin:koin-compose:4.0.2")
                 "compileOnly"("io.insert-koin:koin-compose-viewmodel:4.0.2")
@@ -29,7 +29,9 @@ class HolonetPlugin: Plugin<Project> {
                 "compileOnly"("org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.8.3")
                 "compileOnly"("org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.8.3")
                 "compileOnly"("androidx.compose.material3:material3:1.3.1")
-                "kapt"("org.pf4j:pf4j:3.6.0")
+                "compileOnly"("io.coil-kt.coil3:coil-compose:3.3.0")
+                "compileOnly"("io.coil-kt.coil3:coil-network-okhttp:3.3.0")
+                "kapt"("org.pf4j:pf4j:3.13.0")
             }
 
             // Configure jar task with manifest attributes
